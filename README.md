@@ -337,5 +337,13 @@ El curso completo desde la clase 1 a la 25 incluye:
 - Funciones y programación funcional (clases 19-25): Métodos de listas, funciones, argumentos variables, y funciones lambda
 
 ---
+## GitHub
+
+Comandos empleados para subir el repositorio en https://github.com/RamiroGali/tutorial_python_soydalto.git:
+
+```batch
+gh auth login;
+gh create tutorial_python_soydalto --public --source=. --remote=origin --push;
+```
 
 *Última actualización: Febrero 2026*
