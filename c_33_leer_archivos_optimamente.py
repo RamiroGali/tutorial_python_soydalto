@@ -1,4 +1,4 @@
-# No es necesario cerrarlo cuando se usa with open
+# No es necesario cerrar el acceso al archivo que se está leyendo cuando se usa with open
 with open("src\\texto.txt", encoding="UTF-8") as archivo:
     print("acceso al archivo con with open")
     contenido_archivo = archivo.readlines()
